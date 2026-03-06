@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 export default function RootPage() {
     useEffect(() => {
-        router.push("/(stack)/home")
+        router.replace("/(stack)/home")
     }, [])
 
     useEffect(() => {
